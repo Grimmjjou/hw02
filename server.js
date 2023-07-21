@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const { DB_HOST } = require('./config')
+const { DB_HOST } = require('./node_modules/config')
 const app = require('./app')
 
 mongoose.set('strictQuery', true);
